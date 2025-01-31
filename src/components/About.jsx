@@ -32,7 +32,11 @@ export default function About() {
               <div className="mt-4">
                 <p className="font-semibold text-gray-700">Contact Information:</p>
                 <ul className="list-none p-0">
+<<<<<<< HEAD
                   <li>📍Noida 201303</li>
+=======
+                  <li>📍 Noida 201303</li>
+>>>>>>> 699044af47c6d80758f121caedd269a206093634
                   <li>📞 9616714403</li>
                   <li>✉️ Ks286823@gmail.com</li>
                 </ul>

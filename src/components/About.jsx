@@ -32,7 +32,7 @@ export default function About() {
               <div className="mt-4">
                 <p className="font-semibold text-gray-700">Contact Information:</p>
                 <ul className="list-none p-0">
-                  <li>📍 H85 Near Axis Bank Noida 201303</li>
+                  <li>📍Noida 201303</li>
                   <li>📞 9616714403</li>
                   <li>✉️ Ks286823@gmail.com</li>
                 </ul>

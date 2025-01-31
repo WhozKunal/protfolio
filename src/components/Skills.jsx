@@ -4,13 +4,30 @@ import { useInView } from 'react-intersection-observer';
 
 const skills = {
   "Programming Languages": ["Python", "C", "C++", "HTML", "CSS", "JavaScript"],
-  "ML & AI Frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face", "SpaCy", "NLTK"],
+  "ML & AI Frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face", "SpaCy", "NLTK", "LangChain", "Llama", "Ollama"],
+  "Models": ["Mistral", "DeepSeek", "OpenAI", "Gemini", "Claude", "Falcon", "Meta AI", "Stable Diffusion"],
   "Web Frameworks": ["Django", "Flask", "FastAPI"],
   "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins"],
-  "Databases": ["Microsoft SQL Server", "MySQL", "DB2"],
-  "Tools & Technologies": ["OpenCV", "Git", "Power-BI", "SSIS", "Selenium"],
-  "Areas of Expertise": ["Computer Vision", "NLP", "Voice Recognition", "Machine Learning", "Deep Learning"]
+  "Databases": ["Microsoft SQL Server", "MySQL", "DB2", "Vector Databases", "Pinecone", "Weaviate", "FAISS", "ChromaDB"],
+  "Big Data & Distributed Computing": ["Hadoop", "Spark", "Kafka", "Ray", "Dask", "Flink"],
+  "Tools & Technologies": ["OpenCV", "Git", "Power-BI", "SSIS", "Selenium", "MLflow", "Weights & Biases"],
+  "Areas of Expertise": [
+    "Computer Vision", 
+    "NLP", 
+    "Voice Recognition", 
+    "Machine Learning", 
+    "Deep Learning", 
+    "Embeddings", 
+    "Federated Learning", 
+    "Reinforcement Learning", 
+    "Graph Neural Networks", 
+    "AutoML", 
+    "MLOps"
+  ]
 };
+
+
+
 
 export default function Skills() {
   const [ref, inView] = useInView({

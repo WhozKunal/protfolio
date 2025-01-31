@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 const experiences = [
   {
     title: "Python Developer AI/ML",
-    company: "Upsala Defsol And It Services Private Limited",
+    company: "Theoceann.ai",
     period: "Dec 2023 - Present",
     location: "Delhi",
     description: [
